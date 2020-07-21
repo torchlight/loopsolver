@@ -103,6 +103,7 @@ public class Main {
 			if (verbosity > 0) {
 				System.out.println("using two-phase 5x5 solver");
 			}
+			return true;
 		}
 
 		if (arg.equals("-tryhard")) {
